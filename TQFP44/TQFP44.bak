@@ -1,0 +1,49 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x22 J1
+U 1 1 5D21790C
+P 5800 3850
+F 0 "J1" H 5880 3842 50  0000 L CNN
+F 1 "Conn_01x22" H 5880 3751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 5800 3850 50  0001 C CNN
+F 3 "~" H 5800 3850 50  0001 C CNN
+	1    5800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x22_Counter_Clockwise J3
+U 1 1 5D218126
+P 5300 3850
+F 0 "J3" H 5350 5067 50  0000 C CNN
+F 1 "Conn_02x22_Counter_Clockwise" H 5350 4976 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5300 3850 50  0001 C CNN
+F 3 "~" H 5300 3850 50  0001 C CNN
+	1    5300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x22 J2
+U 1 1 5D21CCC0
+P 4900 3850
+F 0 "J2" H 4818 5067 50  0000 C CNN
+F 1 "Conn_01x22" H 4818 4976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 4900 3850 50  0001 C CNN
+F 3 "~" H 4900 3850 50  0001 C CNN
+	1    4900 3850
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
