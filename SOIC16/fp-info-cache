@@ -1,4 +1,4 @@
-15892620610857578
+15919197124135028
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -43889,6 +43889,13 @@ single digit 7 segemnt red/green LED
 0
 10
 10
+esp8266
+ESP12S
+ESP-12S
+Integrated Circuit
+0
+16
+16
 Fiducial
 Fiducial_0.5mm_Mask1.5mm
 Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening
@@ -49084,6 +49091,41 @@ SirMicro127x42
 0
 0
 logo
+SirNano67x24
+
+
+0
+0
+0
+logo
+SirNano81x29
+
+
+0
+0
+0
+logo
+SirNano87x31
+
+
+0
+0
+0
+logo
+SirNano101x36
+
+
+0
+0
+0
+logo
+SirNano118x40
+
+
+0
+0
+0
+logo
 SirTiny
 
 
@@ -49119,6 +49161,20 @@ SirTiny79x36
 0
 0
 logo
+SirTiny80X31
+
+
+0
+0
+0
+logo
+SirTiny94X37
+
+
+0
+0
+0
+logo
 SirTinyUSB65x23
 
 
@@ -49134,6 +49190,20 @@ SirTinyV2_53x21
 0
 logo
 SirTinyV2_64x25
+
+
+0
+0
+0
+logo
+SirUSB76x29
+
+
+0
+0
+0
+logo
+SirUSB95x36
 
 
 0
@@ -49174,6 +49244,41 @@ Connector
 0
 23
 23
+MISC
+317030026
+317030026-3
+Connector
+0
+42
+42
+MISC
+ATWINC15X0-MR210XB
+ATWINC15x0-MR210xB
+Undefined or Miscellaneous
+0
+29
+29
+MISC
+DIP1524W65P254L3175H1019Q24N
+dip24
+Power Supply
+0
+24
+24
+MISC
+MDBT42Q
+MDBT42Q
+Undefined or Miscellaneous
+0
+41
+41
+MISC
+SOP65P490X110-8N
+RM-8(MSOP)
+Integrated Circuit
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -62705,6 +62810,13 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
+RDD8W
+DIP1524W65P254L3175H1019Q24N
+dip24
+Power Supply
+0
+24
+24
 Regulator150mA
 SOT95P280X145-5N
 SOT-23-5 (M5)

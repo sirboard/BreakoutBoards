@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:QFN20-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,4 +47,51 @@ F 3 "~" H 4900 4300 50  0001 C CNN
 	1    4900 4300
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J4
+U 1 1 5D287A35
+P 5300 4400
+F 0 "J4" H 5350 5015 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 5350 4925 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 5300 4400 50  0001 C CNN
+F 3 "~" H 5300 4400 50  0001 C CNN
+	1    5300 4400
+	1    0    0    1   
+$EndComp
+Connection ~ 5100 3900
+Connection ~ 5100 4000
+Connection ~ 5100 4100
+Connection ~ 5100 4200
+Connection ~ 5100 4300
+Connection ~ 5100 4400
+Connection ~ 5100 4500
+Connection ~ 5100 4600
+Connection ~ 5100 4700
+Connection ~ 5100 4800
+Connection ~ 5600 3900
+Connection ~ 5600 4000
+Connection ~ 5600 4100
+Connection ~ 5600 4200
+Connection ~ 5600 4300
+Connection ~ 5600 4400
+Connection ~ 5600 4500
+Connection ~ 5600 4600
+Connection ~ 5600 4700
+Connection ~ 5600 4800
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D3B65EC
+P 7600 4300
+F 0 "J?" H 7679 4342 50  0000 L CNN
+F 1 "Conn_01x03" H 7679 4252 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7600 4300 50  0001 C CNN
+F 3 "~" H 7600 4300 50  0001 C CNN
+	1    7600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4200 7400 4300
+Connection ~ 7400 4300
+Wire Wire Line
+	7400 4300 7400 4400
 $EndSCHEMATC

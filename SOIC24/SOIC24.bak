@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SOIC24-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,75 +15,82 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x14 J1
-U 1 1 5D2A30AE
-P 5200 3750
-F 0 "J1" H 5279 3742 50  0000 L CNN
-F 1 "Conn_01x14" H 5279 3652 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 5200 3750 50  0001 C CNN
-F 3 "~" H 5200 3750 50  0001 C CNN
-	1    5200 3750
+L Connector_Generic:Conn_01x12 J5
+U 1 1 5D373AE3
+P 6850 3700
+F 0 "J5" H 6929 3692 50  0000 L CNN
+F 1 "Conn_01x12" H 6929 3602 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 6850 3700 50  0001 C CNN
+F 3 "~" H 6850 3700 50  0001 C CNN
+	1    6850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J1
+U 1 1 5D37609B
+P 5950 3700
+F 0 "J1" H 6029 3692 50  0000 L CNN
+F 1 "Conn_01x12" H 6029 3602 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 5950 3700 50  0001 C CNN
+F 3 "~" H 5950 3700 50  0001 C CNN
+	1    5950 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x14 J3
-U 1 1 5D2A49D3
-P 6100 3750
-F 0 "J3" H 6179 3742 50  0000 L CNN
-F 1 "Conn_01x14" H 6179 3652 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 6100 3750 50  0001 C CNN
-F 3 "~" H 6100 3750 50  0001 C CNN
-	1    6100 3750
+L Connector_Generic:Conn_02x12_Counter_Clockwise J3
+U 1 1 5D379B2C
+P 6350 3700
+F 0 "J3" H 6400 4415 50  0000 C CNN
+F 1 "Conn_02x12_Counter_Clockwise" H 6400 4325 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 6350 3700 50  0001 C CNN
+F 3 "~" H 6350 3700 50  0001 C CNN
+	1    6350 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x14_Counter_Clockwise J2
-U 1 1 5D2A245F
-P 5600 3750
-F 0 "J2" H 5650 4565 50  0000 C CNN
-F 1 "Conn_02x14_Counter_Clockwise" H 5650 4475 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm" H 5600 3750 50  0001 C CNN
-F 3 "~" H 5600 3750 50  0001 C CNN
-	1    5600 3750
+L Connector_Generic:Conn_02x12_Counter_Clockwise J2
+U 1 1 5D3AA382
+P 6350 3700
+F 0 "J2" H 6400 4415 50  0000 C CNN
+F 1 "Conn_02x12_Counter_Clockwise" H 6400 4325 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm" H 6350 3700 50  0001 C CNN
+F 3 "~" H 6350 3700 50  0001 C CNN
+	1    6350 3700
 	1    0    0    -1  
 $EndComp
+Connection ~ 6150 3200
+Connection ~ 6150 3300
+Connection ~ 6150 3400
+Connection ~ 6150 3500
+Connection ~ 6150 3600
+Connection ~ 6150 3700
+Connection ~ 6150 3800
+Connection ~ 6150 3900
+Connection ~ 6150 4000
+Connection ~ 6150 4100
+Connection ~ 6150 4200
+Connection ~ 6150 4300
+Connection ~ 6650 3200
+Connection ~ 6650 3300
+Connection ~ 6650 3400
+Connection ~ 6650 3500
+Connection ~ 6650 3600
+Connection ~ 6650 3700
+Connection ~ 6650 3800
+Connection ~ 6650 3900
+Connection ~ 6650 4000
+Connection ~ 6650 4100
+Connection ~ 6650 4200
+Connection ~ 6650 4300
 $Comp
-L Connector_Generic:Conn_02x14_Counter_Clockwise J4
-U 1 1 5D2AC70C
-P 5600 3850
-F 0 "J4" H 5650 4665 50  0000 C CNN
-F 1 "Conn_02x14_Counter_Clockwise" H 5650 4575 50  0000 C CNN
-F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 5600 3850 50  0001 C CNN
-F 3 "~" H 5600 3850 50  0001 C CNN
-	1    5600 3850
-	1    0    0    1   
+L Connector_Generic:Conn_02x12_Counter_Clockwise J4
+U 1 1 5D3AD66F
+P 6350 3700
+F 0 "J4" H 6400 4415 50  0000 C CNN
+F 1 "Conn_02x12_Counter_Clockwise" H 6400 4325 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm" H 6350 3700 50  0001 C CNN
+F 3 "~" H 6350 3700 50  0001 C CNN
+	1    6350 3700
+	1    0    0    -1  
 $EndComp
-Connection ~ 5400 3150
-Connection ~ 5400 3250
-Connection ~ 5400 3350
-Connection ~ 5400 3450
-Connection ~ 5400 3550
-Connection ~ 5400 3650
-Connection ~ 5400 3750
-Connection ~ 5400 3850
-Connection ~ 5400 3950
-Connection ~ 5400 4050
-Connection ~ 5400 4150
-Connection ~ 5400 4250
-Connection ~ 5400 4350
-Connection ~ 5400 4450
-Connection ~ 5900 3150
-Connection ~ 5900 3250
-Connection ~ 5900 3350
-Connection ~ 5900 3450
-Connection ~ 5900 3550
-Connection ~ 5900 3650
-Connection ~ 5900 3750
-Connection ~ 5900 3850
-Connection ~ 5900 3950
-Connection ~ 5900 4050
-Connection ~ 5900 4150
-Connection ~ 5900 4250
-Connection ~ 5900 4350
-Connection ~ 5900 4450
 $EndSCHEMATC
