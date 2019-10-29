@@ -10,6 +10,16 @@
   )
 
   (page A4)
+  (title_block
+    (title "QFN20 to DIP20 Breakout Board")
+    (date 2019-07-11)
+    (rev 1)
+    (company SirBoard.com)
+    (comment 1 "QFN20 P=0.5mm")
+    (comment 2 "QFN20 P=0.65mm")
+    (comment 3 "DIP20 P=0.5mm")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -63,8 +73,8 @@
     (mod_text_width 0.15)
     (pad_size 3.35 3.35)
     (pad_drill 0)
-    (pad_to_mask_clearance 0.051)
-    (solder_mask_min_width 0.25)
+    (pad_to_mask_clearance 0)
+    (solder_mask_min_width 0.1)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
@@ -78,7 +88,7 @@
       (plotframeref false)
       (viasonmask true)
       (mode 1)
-      (useauxorigin false)
+      (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15.000000)
@@ -1636,7 +1646,7 @@
   (segment (start 157.48 106.426) (end 161.29 106.426) (width 0.25) (layer B.Cu) (net 21))
   (segment (start 157.48 106.426) (end 160.02 106.426) (width 0.25) (layer F.Cu) (net 21))
 
-  (zone (net 21) (net_name "Net-(J5-Pad1)") (layer B.Cu) (tstamp 5D7EA1D4) (hatch none 0.508)
+  (zone (net 21) (net_name "Net-(J5-Pad1)") (layer B.Cu) (tstamp 5D7F5777) (hatch none 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.25) (thermal_bridge_width 0.3))
@@ -1696,7 +1706,7 @@
       )
     )
   )
-  (zone (net 21) (net_name "Net-(J5-Pad1)") (layer F.Cu) (tstamp 5D7EA1D1) (hatch none 0.508)
+  (zone (net 21) (net_name "Net-(J5-Pad1)") (layer F.Cu) (tstamp 5D7F5774) (hatch none 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.25) (thermal_bridge_width 0.3))

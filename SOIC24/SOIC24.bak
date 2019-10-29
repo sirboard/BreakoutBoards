@@ -93,4 +93,26 @@ F 3 "~" H 6350 3700 50  0001 C CNN
 	1    6350 3700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 5D3D3EBE
+P 7700 4100
+F 0 "J6" H 7779 4142 50  0000 L CNN
+F 1 "Conn_01x05" H 7779 4052 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7700 4100 50  0001 C CNN
+F 3 "~" H 7700 4100 50  0001 C CNN
+	1    7700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4300 7500 4200
+Connection ~ 7500 4000
+Wire Wire Line
+	7500 4000 7500 3900
+Connection ~ 7500 4100
+Wire Wire Line
+	7500 4100 7500 4000
+Connection ~ 7500 4200
+Wire Wire Line
+	7500 4200 7500 4100
 $EndSCHEMATC

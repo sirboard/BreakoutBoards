@@ -5,13 +5,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Title "QFN20 TO DIP20 Breakout Board"
+Date "2019-07-11"
+Rev "1"
+Comp "SirBoard"
+Comment1 "QFN20 P=0.5mm"
+Comment2 "QFN20 P=0.65mm"
+Comment3 "DIP20 P=2.54mm"
 Comment4 ""
 $EndDescr
 $Comp
@@ -79,10 +79,10 @@ Connection ~ 5600 4600
 Connection ~ 5600 4700
 Connection ~ 5600 4800
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J5
 U 1 1 5D3B65EC
 P 7600 4300
-F 0 "J?" H 7679 4342 50  0000 L CNN
+F 0 "J5" H 7679 4342 50  0000 L CNN
 F 1 "Conn_01x03" H 7679 4252 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7600 4300 50  0001 C CNN
 F 3 "~" H 7600 4300 50  0001 C CNN

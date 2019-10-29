@@ -1,0 +1,192 @@
+EESchema Schematic File Version 4
+LIBS:USBC-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "USB Type C (USB2.0) Breakout"
+Date "2019-10-26"
+Rev "1"
+Comp "SirBoard"
+Comment1 "www.SirBoard.com"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DB38589
+P 2750 4750
+F 0 "H1" H 2850 4795 50  0000 L CNN
+F 1 "MountingHole" H 2850 4705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 2750 4750 50  0001 C CNN
+F 3 "~" H 2750 4750 50  0001 C CNN
+	1    2750 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DB39176
+P 2750 5950
+F 0 "H2" H 2850 5995 50  0000 L CNN
+F 1 "MountingHole" H 2850 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 2750 5950 50  0001 C CNN
+F 3 "~" H 2750 5950 50  0001 C CNN
+	1    2750 5950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 5DB44CE9
+P 3350 5350
+F 0 "J1" H 3456 6215 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 3456 6125 50  0000 C CNN
+F 2 "U_FL:USB_C" H 3500 5350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3500 5350 50  0001 C CNN
+	1    3350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5DB47AD6
+P 4300 4950
+F 0 "R1" V 4097 4950 50  0000 C CNN
+F 1 "5K1" V 4187 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4340 4940 50  0001 C CNN
+F 3 "~" H 4300 4950 50  0001 C CNN
+	1    4300 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5DB48781
+P 4300 5050
+F 0 "R2" V 4503 5050 50  0000 C CNN
+F 1 "5K1" V 4413 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4340 5040 50  0001 C CNN
+F 3 "~" H 4300 5050 50  0001 C CNN
+	1    4300 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 5050 4100 5050
+Wire Wire Line
+	3950 4950 4050 4950
+Wire Wire Line
+	4450 5050 4550 5050
+Wire Wire Line
+	4550 5050 4550 4950
+Wire Wire Line
+	4550 4950 4450 4950
+$Comp
+L power:GND #PWR0101
+U 1 1 5DB49C98
+P 4100 6450
+F 0 "#PWR0101" H 4100 6200 50  0001 C CNN
+F 1 "GND" H 4104 6278 50  0000 C CNN
+F 2 "" H 4100 6450 50  0001 C CNN
+F 3 "" H 4100 6450 50  0001 C CNN
+	1    4100 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5050 4550 6350
+Wire Wire Line
+	4550 6350 4100 6350
+Wire Wire Line
+	3050 6350 3050 6250
+Connection ~ 4550 5050
+Wire Wire Line
+	3350 6250 3350 6350
+Connection ~ 3350 6350
+Wire Wire Line
+	3350 6350 3050 6350
+Wire Wire Line
+	4100 6350 4100 6450
+Connection ~ 4100 6350
+Wire Wire Line
+	4100 6350 3350 6350
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 5DB4F842
+P 5250 5250
+F 0 "J2" H 5329 5242 50  0000 L CNN
+F 1 "Conn_01x08" H 5329 5152 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5250 5250 50  0001 C CNN
+F 3 "~" H 5250 5250 50  0001 C CNN
+	1    5250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4950 5050 4950
+Connection ~ 4550 4950
+Wire Wire Line
+	3950 4750 4950 4750
+Wire Wire Line
+	4950 4750 4950 5050
+Wire Wire Line
+	4950 5050 5050 5050
+Wire Wire Line
+	4100 5050 4100 5150
+Wire Wire Line
+	4100 5150 5050 5150
+Connection ~ 4100 5050
+Wire Wire Line
+	4100 5050 4150 5050
+Wire Wire Line
+	3950 5950 4650 5950
+Wire Wire Line
+	4650 5950 4650 5250
+Wire Wire Line
+	4650 5250 5050 5250
+Wire Wire Line
+	4400 5250 4400 5350
+Wire Wire Line
+	4400 5350 5050 5350
+Wire Wire Line
+	3950 5550 4000 5550
+Wire Wire Line
+	4050 4950 4050 5550
+Wire Wire Line
+	4050 5550 5050 5550
+Connection ~ 4050 4950
+Wire Wire Line
+	4050 4950 4150 4950
+Wire Wire Line
+	3950 5850 5050 5850
+Wire Wire Line
+	5050 5850 5050 5650
+Wire Wire Line
+	3950 5450 4000 5450
+Wire Wire Line
+	3950 5250 4000 5250
+Wire Wire Line
+	4000 5550 4000 5450
+Connection ~ 4000 5450
+Wire Wire Line
+	4000 5450 5050 5450
+Wire Wire Line
+	3950 5350 4000 5350
+Wire Wire Line
+	4000 5350 4000 5250
+Connection ~ 4000 5250
+Wire Wire Line
+	4000 5250 4400 5250
+Text Label 4700 4750 0    50   ~ 0
+VBUS
+Text Label 4700 4950 0    50   ~ 0
+GND
+Text Label 4700 5150 0    50   ~ 0
+CC2
+Text Label 4700 5250 0    50   ~ 0
+SBU2
+Text Label 4700 5350 0    50   ~ 0
+D-
+Text Label 4700 5450 0    50   ~ 0
+D+
+Text Label 4700 5550 0    50   ~ 0
+CC1
+Text Label 4700 5850 0    50   ~ 0
+SBU1
+$EndSCHEMATC

@@ -1,4 +1,4 @@
-15919197124135028
+15892645124044915
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -262,13 +262,6 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-3032 coin cell vertical
-0
-2
-2
-BatteryJumper
-PRT09749
-PRT-09749-2
-Connector
 0
 2
 2
@@ -43889,13 +43882,6 @@ single digit 7 segemnt red/green LED
 0
 10
 10
-esp8266
-ESP12S
-ESP-12S
-Integrated Circuit
-0
-16
-16
 Fiducial
 Fiducial_0.5mm_Mask1.5mm
 Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening
@@ -49091,6 +49077,20 @@ SirMicro127x42
 0
 0
 logo
+SirMighty
+
+
+0
+0
+0
+logo
+SirMighty132x36
+
+
+0
+0
+0
+logo
 SirNano67x24
 
 
@@ -49237,48 +49237,6 @@ TheDuke112x26
 0
 0
 0
-microSD_nanoSIM
-1042391430
-104239-1430
-Connector
-0
-23
-23
-MISC
-317030026
-317030026-3
-Connector
-0
-42
-42
-MISC
-ATWINC15X0-MR210XB
-ATWINC15x0-MR210xB
-Undefined or Miscellaneous
-0
-29
-29
-MISC
-DIP1524W65P254L3175H1019Q24N
-dip24
-Power Supply
-0
-24
-24
-MISC
-MDBT42Q
-MDBT42Q
-Undefined or Miscellaneous
-0
-41
-41
-MISC
-SOP65P490X110-8N
-RM-8(MSOP)
-Integrated Circuit
-0
-8
-8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -62810,20 +62768,6 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
-RDD8W
-DIP1524W65P254L3175H1019Q24N
-dip24
-Power Supply
-0
-24
-24
-Regulator150mA
-SOT95P280X145-5N
-SOT-23-5 (M5)
-Power Supply
-0
-5
-5
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
@@ -65421,55 +65365,6 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
-SIMcom
-SIM28M
-SIM28M
-Integrated Circuit
-0
-18
-18
-SIMcom
-SIM39EA
-SIM39EA-2
-Integrated Circuit
-0
-13
-13
-SIMcom
-SIM800C
-sim800c
-Integrated Circuit
-0
-42
-42
-SIMcom
-SIM808
-SIM808
-Integrated Circuit
-0
-68
-68
-SIMcom
-SIM868
-SIM868
-Undefined or Miscellaneous
-0
-77
-77
-SIMcom
-SIM7000
-SIM7000
-Undefined or Miscellaneous
-0
-68
-68
-SIMcom
-SIM7100E
-SIM7100E
-Integrated Circuit
-0
-87
-87
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
@@ -70671,13 +70566,6 @@ transformer flyback
 0
 10
 10
-U_FL
-U.FL-R-SMT(01)
-U.FL-R-SMT(01)
-Connector
-0
-3
-3
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
