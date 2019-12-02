@@ -9,9 +9,9 @@ Title "QFN20 TO DIP20 Breakout Board"
 Date "2019-07-11"
 Rev "1"
 Comp "SirBoard"
-Comment1 "QFN20 P=0.5mm"
-Comment2 "QFN20 P=0.65mm"
-Comment3 "DIP20 P=2.54mm"
+Comment1 "QFN20 P = 0.5mm"
+Comment2 "QFN20 P = 0.65mm"
+Comment3 "DIP20 P = 2.54mm"
 Comment4 ""
 $EndDescr
 $Comp

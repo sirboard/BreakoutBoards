@@ -15,7 +15,8 @@
     (date 2019-10-26)
     (rev 1)
     (company SirBoard)
-    (comment 1 www.SirBoard.com)
+    (comment 1 "Keystone 3008")
+    (comment 2 "DIP 2.54mm")
   )
 
   (layers

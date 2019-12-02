@@ -15,9 +15,9 @@
     (date 2019-07-11)
     (rev 1)
     (company SirBoard.com)
-    (comment 1 "QFN20 P=0.5mm")
-    (comment 2 "QFN20 P=0.65mm")
-    (comment 3 "DIP20 P=0.5mm")
+    (comment 1 "QFN20 P = 0.5mm")
+    (comment 2 "QFN20 P = 0.65mm")
+    (comment 3 "DIP20 P = 2.54mm")
   )
 
   (layers
