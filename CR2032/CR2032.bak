@@ -9,8 +9,8 @@ Title "CR2032  Breakout"
 Date "2019-10-26"
 Rev "1"
 Comp "SirBoard"
-Comment1 "www.SirBoard.com"
-Comment2 ""
+Comment1 "Keystone 3008"
+Comment2 "DIP 2.54mm"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -120,6 +120,7 @@ F 0 "BT1" H 2318 1545 50  0000 L CNN
 F 1 "Battery_Cell" H 2318 1455 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_3008_1x2450" V 2200 1510 50  0001 C CNN
 F 3 "~" V 2200 1510 50  0001 C CNN
+F 4 "C238100" H 2200 1450 50  0001 C CNN "PartNo."
 	1    2200 1450
 	1    0    0    -1  
 $EndComp
