@@ -16,8 +16,9 @@
     (rev 1)
     (company SirBoard)
     (comment 1 "TQFP64 P = 0.5mm")
-    (comment 2 "QFN64 P = 0.4mm")
-    (comment 3 "DIP64 P = 2.54mm")
+    (comment 2 "TQFP64 P = 0.4mm")
+    (comment 3 "QFN64 P = 0.4mm")
+    (comment 4 "DIP64 P = 2.54mm")
   )
 
   (layers
@@ -28,7 +29,7 @@
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user)
-    (37 F.SilkS user)
+    (37 F.SilkS user hide)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user)
