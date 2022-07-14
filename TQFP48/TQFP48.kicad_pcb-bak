@@ -12,8 +12,8 @@
   (page User 132.004 102.006)
   (title_block
     (title "TQFP48 to DIP48 Breakout Board")
-    (date 2019-07-24)
-    (rev 1)
+    (date 2020-04-19)
+    (rev 2)
     (company SirBoard)
     (comment 1 "TQFP48 P =0.5mm")
     (comment 2 "QFN48 P =0.4mm")
